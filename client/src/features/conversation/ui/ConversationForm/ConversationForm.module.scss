@@ -1,0 +1,22 @@
+.conversation {
+  margin-top: 22px;
+  border: 1px solid var(--border);
+  height: calc(100vh - 77px);
+
+  .noConversation {
+    height: 100%;
+  }
+
+  .iconBox {
+    border: 3px solid var(--inverted-main-color);
+    border-radius: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+.dark {
+  filter: invert(100%);
+}

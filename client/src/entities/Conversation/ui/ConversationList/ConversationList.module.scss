@@ -1,0 +1,25 @@
+.conversationsList {
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid var(--border);
+  .profile {
+    padding: 18px 49px;
+    border-bottom: 1px solid var(--border);
+    svg {
+      cursor: pointer;
+    }
+  }
+  .talk {
+    padding-top: 8px;
+    .userCard {
+      padding: 8px 20px;
+    }
+    .talkList {
+      width: 100%;
+    }
+    &.active {
+      background: yellowgreen;
+    }
+  }
+}

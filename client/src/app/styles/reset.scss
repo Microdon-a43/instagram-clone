@@ -1,0 +1,33 @@
+.ant-modal {
+  &-content {
+    background: var(--main-color-body) !important;
+  }
+  &-header {
+    background: var(--main-color-body) !important;
+  }
+  &-close {
+    svg {
+      fill: var(--inverted-main-color);
+    }
+  }
+}
+.ant-dropdown-menu {
+  background: var(--main-color-body) !important;
+}
+
+.ant-btn {
+  &-primary {
+    &:disabled {
+      background: var(--main-color-body) !important;
+      color: var(--inverted-main-color) !important;
+      opacity: 0.6 !important;
+    }
+  }
+  &-dangerous {
+    &:disabled {
+      background: var(--main-color-body) !important;
+      color: var(--inverted-main-color) !important;
+      opacity: 0.6 !important;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.btn {
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  height: 30px;
+  padding: 6px 9px;
+  position: relative;
+  cursor: pointer;
+
+  .loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+  }
+
+  &.default {
+    background-color: var(--blue_500);
+    color: #fff;
+  }
+
+  &.outline {
+    border: 1px solid var(--border);
+    color: var(--text-color);
+    background: transparent;
+  }
+
+  &.noBorders {
+    border: none;
+  }
+
+  &.max {
+    width: 100%;
+  }
+}
+
+.default {
+  background-color: var(--inverted-main-color);
+}

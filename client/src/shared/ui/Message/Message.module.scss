@@ -1,0 +1,20 @@
+.message {
+  &.friend {
+    .text {
+      padding: 10px;
+      border-radius: 20px;
+      background-color: var(--blue_500);
+      color: var(--inverted-main-color);
+      max-width: 250px;
+    }
+  }
+  &.own {
+    .text {
+      padding: 10px;
+      border-radius: 20px;
+      background-color: var(--inverted-main-color);
+      color: var(--main-color-body);
+      max-width: 250px;
+    }
+  }
+}

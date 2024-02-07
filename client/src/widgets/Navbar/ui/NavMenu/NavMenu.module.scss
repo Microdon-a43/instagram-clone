@@ -1,0 +1,14 @@
+.nav {
+  .list {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    li {
+      cursor: pointer;
+    }
+  }
+}
+
+.dark {
+  filter: invert(100%);
+}

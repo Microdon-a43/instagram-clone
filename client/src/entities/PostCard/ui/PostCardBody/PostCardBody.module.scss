@@ -1,0 +1,16 @@
+.postBody {
+  width: 100%;
+  max-width: 477px;
+  img {
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    object-fit: cover;
+  }
+  video {
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,26 @@
+.avatar {
+  border: 1px solid black;
+  position: relative;
+  border-radius: 100%;
+  input {
+    border: 1px solid red;
+    display: none;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 20;
+    background: rgb(124, 119, 119);
+    transition: all 0.2s;
+    border-radius: inherit;
+    cursor: pointer;
+  }
+  &:hover::after {
+    opacity: 0.5;
+  }
+}

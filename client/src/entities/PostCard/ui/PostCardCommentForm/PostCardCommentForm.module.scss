@@ -1,0 +1,53 @@
+.commentForm {
+  padding: 6px 16px;
+  border-top: 1px solid var(--border);
+  position: relative;
+  form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    .input {
+      border: none;
+      width: 90%;
+      height: 100%;
+      background: var(--main-color);
+      color: var(--inverted-main-color);
+      &.active {
+        padding-left: 60px;
+      }
+    }
+    &.icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      .dark {
+      }
+    }
+    .repliesTo {
+      position: absolute;
+      top: 50%;
+      padding: 3px;
+      border-radius: 4px;
+      left: 0;
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      transform: translateY(-50%);
+      background: var(--blue_500);
+      color: var(--inverted-main-color);
+    }
+  }
+  .pickers {
+    position: absolute;
+    top: 37px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+  }
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+}

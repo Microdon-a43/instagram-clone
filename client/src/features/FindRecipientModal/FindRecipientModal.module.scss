@@ -1,0 +1,62 @@
+.modal {
+  .accounts {
+    margin-top: 50px;
+    height: 250px;
+    padding: 10px;
+    width: 100%;
+    .userCards {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      margin-top: 110px;
+      padding: 0 20px;
+      .userCard {
+        width: 100%;
+        height: 100%;
+        color: var(--inverted-main-color);
+        cursor: pointer;
+        padding-left: 5px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        &:hover {
+          background: rgb(243, 237, 237);
+        }
+      }
+    }
+  }
+  .search {
+    left: 0;
+    padding: 0 20px;
+    position: absolute;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    .user {
+      .userInfo {
+        padding: 5px 0;
+        .username {
+          background: var(--blue_500);
+          padding: 2px 5px;
+          color: var(--inverted-main-color);
+          border-radius: 10px;
+        }
+        .close {
+          color: var(--inverted-main-color);
+          font-size: 16px;
+        }
+      }
+    }
+    input {
+      border: none;
+      width: 100%;
+    }
+
+    span {
+      width: 45px;
+    }
+  }
+  .btn {
+    width: 100%;
+  }
+}

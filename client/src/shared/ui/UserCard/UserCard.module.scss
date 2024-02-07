@@ -1,0 +1,22 @@
+.userCard {
+  &.size22 {
+    h2 {
+      font-size: 13px;
+      line-height: 16px;
+    }
+    span {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  &.size32 {
+    h2 {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    span {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+}

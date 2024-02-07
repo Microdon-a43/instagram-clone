@@ -1,0 +1,15 @@
+.navbar {
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+
+.wrapper {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark {
+  filter: invert(100%);
+}

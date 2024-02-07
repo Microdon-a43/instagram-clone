@@ -1,0 +1,26 @@
+.auth {
+  margin-top: 80px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.authTop {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 30px;
+  background: var(--main-color-body);
+}
+
+.authBottom {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 15px 10px;
+}
+
+.dark {
+  filter: invert(100%);
+}
+
+.facebook {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,13 @@
+.like {
+  svg {
+    cursor: pointer;
+    stroke: black;
+  }
+  transition: all 0.3s;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  transform: scale(1.2);
+}

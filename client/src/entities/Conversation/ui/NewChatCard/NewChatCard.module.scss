@@ -1,0 +1,54 @@
+.newChat {
+  height: calc(100vh - 74px);
+  padding: 5px;
+  .top {
+    padding: 10px;
+  }
+  .middle {
+    margin-top: 30px;
+    height: 100%;
+    flex: 1;
+  }
+  .bottom {
+    padding: 0 10px;
+    height: 60px;
+    .inputBox {
+      width: 100%;
+      form {
+        position: relative;
+        .leftIcon {
+          position: absolute;
+          width: 30px;
+          left: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        .pickers {
+          position: absolute;
+          bottom: 45px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 999;
+        }
+        .rightIcons {
+          position: absolute;
+          top: 50%;
+          right: 15px;
+          width: 70px;
+          transform: translateY(-50%);
+          align-items: center;
+        }
+
+        input {
+          width: 100%;
+          padding-left: 40px;
+          padding-right: 65px;
+          border: 1px solid var(--border);
+          height: 45px;
+          border-radius: 20px;
+          background: transparent;
+        }
+      }
+    }
+  }
+}

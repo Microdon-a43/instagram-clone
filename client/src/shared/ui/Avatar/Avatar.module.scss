@@ -1,0 +1,74 @@
+.avatar {
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: var(--border);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .noImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.size22 {
+  max-width: 22px;
+  max-height: 22px;
+  min-width: 22px;
+  min-height: 22px;
+  .noImage {
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.size32 {
+  max-width: 32px;
+  max-height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  .noImage {
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.size56 {
+  max-width: 56px;
+  max-height: 56px;
+  min-width: 56px;
+  min-height: 56px;
+  .noImage {
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.size150 {
+  max-width: 150px;
+  max-height: 150px;
+  min-width: 150px;
+  min-height: 150px;
+}
+.noImage {
+  width: inherit;
+  height: inherit;
+}
+
+.default {
+}
+
+.stories {
+  img {
+    padding: 2px 0;
+    object-fit: cover;
+  }
+}

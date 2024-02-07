@@ -1,0 +1,18 @@
+.commentMenu {
+  position: absolute;
+  height: 50px;
+  top: 0;
+  right: 0;
+}
+.modal {
+  .items {
+    span {
+      transition: all 0.3s ease;
+      cursor: pointer;
+      &:hover {
+        color: lighten(#000, 50%);
+        text-decoration: underline;
+      }
+    }
+  }
+}
